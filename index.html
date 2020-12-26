@@ -75,13 +75,10 @@
             <a class="nav-link js-scroll" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="https://noize-test.herokuapp.com">Noize</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll" href="#service">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blog</a>
+            <a class="nav-link js-scroll" href="#blog">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
@@ -135,6 +132,11 @@
                   <span>HTML</span> <span class="pull-right">85%</span>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>PHP</span> <span class="pull-right">91%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="85" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                   <span>Java</span> <span class="pull-right">75%</span>
@@ -196,12 +198,12 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
-            <h3 class="title-a">
+            <h3 class="title-a" style="color: royalblue;">
               Services
             </h3>
-            <p class="subtitle-a">
+            <h4 class="subtitle-a" style="color:whitesmoke">
               In short, in which regards I can ease your tech related problems!
-            </p>
+            </h4>
             <div class="line-mf"></div>
           </div>
         </div>
@@ -236,7 +238,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android"></i></span>
+              <span class="ico-circle"><i class="ionicons ion-code-download"></i></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Android/Java</h2>
@@ -264,7 +266,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-otocat"></i></span>
+              <span class="ico-circle"><i class="ionicons ion-social-octocat"></i></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Android/Kotlin</h2>
@@ -288,7 +290,7 @@
           </div>
         </div>
         <div class="service-content">
-          <p class="s-description text-center">
+          <p class="s-description text-center" style="color: royalblue;">
             *just for fun :D, anyways I meant SELF EXPERIENCE up there.
           </p>
         </div>
@@ -513,9 +515,8 @@
       </div>
     </div>
   </section>
--->
 
-  <!--/ Section Testimonials Star /-->
+
   <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
@@ -556,19 +557,19 @@
       </div>
     </div>
   </div>
-
+-->
 
   <section id="blog" class="blog-mf sect-pt4 route">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
-            <h3 class="title-a">
-              Blog
-            </h3>
-            <p class="subtitle-a">
-              Where different aspects of various programming procedures will be discussed.
-            </p>
+            <h2 class="title-a" style="color:royalblue">
+              Projects
+            </h2>
+            <h4 class="subtitle-a" style="color:whitesmoke">
+              A showcase for some of my works so far.
+            </h4>
             <div class="line-mf"></div>
           </div>
         </div>
@@ -577,25 +578,27 @@
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="#"><img src="img/rxjava.png" alt="" class="img-fluid"></a>
+              <a href="#"><img src="img/ecom.jpg" alt="" class="img-fluid"></a>
             </div>
             <div class="card-body">
               <div class="card-category-box">
                 <div class="card-category">
-                  <h6 class="category">RxJava for Android</h6>
+                  <h6 class="category">e-Commerce</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="#">Basics about RxJava specifically in terms of Android.</a></h3>
+              <h3 class="card-title"><a href="#"></a>e-Commerce Store</h3>
               <p class="card-description">
-                RxJava a.k.a Reactive Java are the pack of new reactive extensions for Java. Named reactive, due to their
-                behaviour and working. Basically in RxJava asynchronous tasks runs on different threads, ultimately producing
-                desired output. It is done with the help of four types of members i.e. Observables, Observers, Subscribers &
-                Schedulers(important in Android). Their further details will be shared in upcoming blogs of this series.
+                A complete online e-commerce store, admin Panel with full access for better management, more than 22+ prebuilt 
+                pages for frontend. A domain* name, and hosting is also provided. Major difference b/w other softwares for online
+                shopping and this project is, introduction of Progressive Web App (PWA).
               </p>
+              <a href="img/brochure.jpg">
+                <span style="color:royalblue;"><strong>To know more click here & get a detailed feature brochure!</strong></span>
+              </a>
             </div>
             <div class="card-footer">
               <div class="post-author">
-                <a href="#">
+                <a href="https://github.com/drbhatti-develops">
                   <img src="img/men.jpg" alt="" class="avatar rounded-circle">
                   <span class="author">Hassan Ashfaq</span>
                 </a>
@@ -609,21 +612,23 @@
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="#"><img src="img/flutter.png" alt="" class="img-fluid"></a>
+              <a href="#"><img src="img/online-exam.png" alt="" class="img-fluid"></a>
             </div>
             <div class="card-body">
               <div class="card-category-box">
                 <div class="card-category">
-                  <h6 class="category">Flutter Intro</h6>
+                  <h6 class="category">Online Examination</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="#">A very basic intro to flutter.</a></h3>
+              <h3 class="card-title"><a href="#">Qriosity, a virtual examiner.</a></h3>
               <p class="card-description">
-                Flutter is a multi platform, open source, and free framework for creating mobile applications,
-                 created by Google. It is very easy to learn and currently it is getting more and more popular.
-                  With this blogpost you will learn some basic stuff about Flutter, and after reading it,
-                   you will be able to create a simple application using this technology.
+               Written in codeigniter, this app is one of the greatest project that I have ever done. This app was designed in
+               2 months, and yet it has features like a mature app, being developed for years. Right now running at 2 instances 
+               for university level examination, during this COVID-19 created chaos.
               </p>
+              <a href="https://drive.google.com/file/d/150n72m6sy5lqSnpCawEEhc0CnFg1KrBs/view?usp=sharing">
+                <span style="color:royalblue;"><strong>To learn more click here & get to see a video describing Qriosity!</strong></span>
+              </a>
             </div>
             <div class="card-footer">
               <div class="post-author">
@@ -641,26 +646,25 @@
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="#"><img src="img/android.jpg" alt="" class="img-fluid"></a>
+              <a href="#"><img src="img/music.jpg" alt="" class="img-fluid"></a>
             </div>
             <div class="card-body">
               <div class="card-category-box">
                 <div class="card-category">
-                  <h6 class="category"> Android</h6>
+                  <h6 class="category">Native Development</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="#">Navigation Graph</a></h3>
+              <h3 class="card-title"><a href="#">Music Player Android</a></h3>
               <p class="card-description">
-                A new feature launched in android development, named as "Navigation Graph View". It is a
-                neat and tidy approach to manage navigation within your android app. Basic idea wraps the
-                process of fragment back stacking. One host fragment will be responsible to provide sliding
-                environment for other child fragments. Further details will be added in upcoming blogs.
+                One of my earliest project, that I started when I knew only 1% of what I know today about coding.
+                So it was written in JAVA, using "Android Studio". It is capable to play audio even one is on the call.
+                Now I am working on this project to get the SoundCloud like waveform seekbar for every song, fingers croosed!
               </p>
             </div>
             <div class="card-footer">
               <div class="post-author">
                 <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                  <img src="img/men.jpg" alt="" class="avatar rounded-circle">
                   <span class="author">Hassan Ashfaq</span>
                 </a>
               </div>
